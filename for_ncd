@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nautical Charts &mdash; Explore the Depths</title>
+    <link rel="stylesheet" href="hbsite.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="hbsite.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-anchor"></i>
+                <h1>NauticalCharts</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#charts">Charts</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+<!--
+            <div class="search-bar">
+                <input type="text" placeholder="Search for charts...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+-->
+        </div>
+    </header>
+
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <h2>Navigate with Confidence</h2>
+            <p>Nautical charts for safe and informed voyages.</p>
+            <a href="#charts" class="btn-primary">View Charts</a>
+        </div>
+    </section>
+
+    <section id="charts" class="charts-section">
+        <div class="container">
+            <h3>Our Chart Collection</h3>
+            <div class="chart-grid">
+                <div class="chart-item">
+                    <img src="https://via.placeholder.com/300x200?text=Pacific+Ocean+Chart" alt="Pacific Ocean Chart">
+                    <h4>Pacific Ocean - West Coast</h4>
+                    <p>Detailed coverage of the Pacific coastline, from Alaska to California.</p>
+                    <a href="#" class="btn-secondary">View Details</a>
+                </div>
+                <div class="chart-item">
+                    <img src="https://via.placeholder.com/300x200?text=Atlantic+Ocean+Chart" alt="Atlantic Ocean Chart">
+                    <h4>Atlantic Ocean - East Coast</h4>
+                    <p>Comprehensive charts for the Atlantic seaboard, including major ports.</p>
+                    <a href="#" class="btn-secondary">View Details</a>
+                </div>
+                <div class="chart-item">
+                    <img src="https://via.placeholder.com/300x200?text=Mediterranean+Sea+Chart" alt="Mediterranean Sea Chart">
+                    <h4>Mediterranean Sea</h4>
+                    <p>Explore the historic waters of the Mediterranean with our detailed charts.</p>
+                    <a href="#" class="btn-secondary">View Details</a>
+                </div>
+                <div class="chart-item">
+                    <img src="https://via.placeholder.com/300x200?text=Caribbean+Sea+Chart" alt="Caribbean Sea Chart">
+                    <h4>Caribbean Sea</h4>
+                    <p>Islands, reefs, and passages &mdash; everything you need for Caribbean navigation.</p>
+                    <a href="#" class="btn-secondary">View Details</a>
+                </div>
+                </div>
+        </div>
+    </section>
+
+    <section id="features" class="features-section">
+        <div class="container">
+            <h3>Why Choose Our Charts?</h3>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <i class="fas fa-chart-line"></i>
+                    <h4>Up-to-Date Data</h4>
+                    <p>Regularly updated to reflect the latest hydrographic surveys.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <h4>High Resolution</h4>
+                    <p>Crisp, clear visuals for precise navigation.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-tablet-alt"></i>
+                    <h4>Multi-Platform</h4>
+                    <p>Access charts on your desktop, tablet, or smartphone.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-life-ring"></i>
+                    <h4>24/7 Support</h4>
+                    <p>Our team is here to assist you with any questions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h3>About Us</h3>
+            <p>At NauticalCharts, we are passionate about maritime safety and exploration. We provide mariners with the most accurate and reliable digital nautical charts, empowering them to embark on their journeys with confidence. Our commitment to quality and continuous improvement ensures that you always have access to the best navigational tools.</p>
+            <p>Founded by a team of experienced sailors and geospatial experts, we understand the critical role that precise charts play in every voyage. We leverage cutting-edge technology to deliver charts that are not only highly functional but also visually intuitive.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h3>Get in Touch</h3>
+            <p>Have a question or need assistance? Reach out to us!</p>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 NauticalCharts. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
